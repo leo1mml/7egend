@@ -55,4 +55,21 @@ extension UIView {
         ])
     }
     
+    func constrainSize(height: CGFloat, width: CGFloat) {
+        constrain(width: width)
+        constrain(height: height)
+    }
+    
+    func constrain(height: CGFloat) {
+        NSLayoutConstraint.activate([
+            heightAnchor.constraint(equalToConstant: height)
+        ])
+    }
+    
+    func constrain(width: CGFloat) {
+        NSLayoutConstraint.activate([
+            widthAnchor.constraint(equalToConstant: width)
+        ])
+    }
+    
 }

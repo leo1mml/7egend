@@ -15,13 +15,9 @@ final class HomeView: UIView {
     private lazy var collectionViewDataSource = UICollectionViewDiffableDataSource<Int, TripShowCaseViewModel>(collectionView: collectionView) {
         (collectionView, indexPath, viewModel) -> UICollectionViewCell? in
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: HomeTripCell.identifier, for: indexPath)
-        if let cell = cell as? Configurable {
-            cell.setup(with: viewModel)
-        }
+        (cell as? Configurable)?.setup(with: viewModel)
         return cell
     }
-    
-    
 }
 
 extension HomeView: CodableViewLayout {
@@ -31,5 +27,12 @@ extension HomeView: CodableViewLayout {
     
     func constraintViews() {
         
+    }
+}
+
+extension HomeView: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let width = collectionView.frame.width * 0.9
+        return CGSize(width: width, height: 300)
     }
 }

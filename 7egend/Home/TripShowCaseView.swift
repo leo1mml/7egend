@@ -27,6 +27,7 @@ extension TripShowCaseView: CodableViewLayout {
         nameLabel.constrainLeading(to: periodLabel)
         seasonIcon.constrainBottom(to: nameLabel, spacing: 16)
         seasonIcon.constrainLeading(to: nameLabel)
+        seasonIcon.constrainSize(height: 16, width: 16)
     }
 }
 
