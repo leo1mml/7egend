@@ -21,6 +21,7 @@
 		8AE4B57F26151304004FAC8A /* HomeTripCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4B57E26151304004FAC8A /* HomeTripCell.swift */; };
 		8AE4B585261513E2004FAC8A /* TripShowCaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4B584261513E2004FAC8A /* TripShowCaseViewModel.swift */; };
 		8AE4B58D261515C9004FAC8A /* TripShowCaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4B58C261515C9004FAC8A /* TripShowCaseView.swift */; };
+		8AE4B59826152218004FAC8A /* ConfigurableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4B59726152218004FAC8A /* ConfigurableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		8AE4B57E26151304004FAC8A /* HomeTripCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTripCell.swift; sourceTree = "<group>"; };
 		8AE4B584261513E2004FAC8A /* TripShowCaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripShowCaseViewModel.swift; sourceTree = "<group>"; };
 		8AE4B58C261515C9004FAC8A /* TripShowCaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripShowCaseView.swift; sourceTree = "<group>"; };
+		8AE4B59726152218004FAC8A /* ConfigurableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 			children = (
 				8AE4B56226150F41004FAC8A /* CodableViewLayout.swift */,
 				8AE4B56D26151157004FAC8A /* UIView+CodableConstraints.swift */,
+				8AE4B59726152218004FAC8A /* ConfigurableView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				8AE4B585261513E2004FAC8A /* TripShowCaseViewModel.swift in Sources */,
 				8A9A03AC2613983900EF0373 /* SceneDelegate.swift in Sources */,
 				8AE4B58D261515C9004FAC8A /* TripShowCaseView.swift in Sources */,
+				8AE4B59826152218004FAC8A /* ConfigurableView.swift in Sources */,
 				8AE4B56326150F41004FAC8A /* CodableViewLayout.swift in Sources */,
 				8AE4B56E26151157004FAC8A /* UIView+CodableConstraints.swift in Sources */,
 				8AE4B57F26151304004FAC8A /* HomeTripCell.swift in Sources */,

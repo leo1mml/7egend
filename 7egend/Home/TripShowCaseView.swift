@@ -29,3 +29,13 @@ extension TripShowCaseView: CodableViewLayout {
         seasonIcon.constrainLeading(to: nameLabel)
     }
 }
+
+extension TripShowCaseView: ConfigurableView {
+    func setup(with viewModel: TripShowCaseViewModel) {
+        setupViews()
+        imageView.image = UIImage(named: viewModel.imageSource)
+        seasonIcon.image = UIImage(named: viewModel.seasonImageSource)
+        nameLabel.text = viewModel.name
+        periodLabel.text = viewModel.period
+    }
+}
