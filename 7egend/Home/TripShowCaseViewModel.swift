@@ -8,6 +8,7 @@
 import Foundation
 
 struct TripShowCaseViewModel: Hashable {
+    let uuid = UUID()
     let imageSource: String
     let name: String
     let seasonImageSource: String

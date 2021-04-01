@@ -9,7 +9,17 @@ import UIKit
 
 final class HomeTripCell: UICollectionViewCell {
     static let identifier = "HomeTripCell"
-    private let view = TripShowCaseView()
+    private let view = TripShowCaseView().makeCodableLayoutView()
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setupViews()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
 }
 
 extension HomeTripCell: CodableViewLayout {
@@ -25,6 +35,6 @@ extension HomeTripCell: CodableViewLayout {
 extension HomeTripCell: ConfigurableView {
 
     func setup(with viewModel: TripShowCaseViewModel) {
-        
+        view.setup(with: viewModel)
     }
 }
