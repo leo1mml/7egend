@@ -5,6 +5,8 @@
 //  Created by Leonel Menezes on 02/04/2021.
 //
 
+///Source:  https://github.com/roberthein/BouncyLayout/blob/master/BouncyLayout/Classes/BouncyLayout.swift
+
 import UIKit
 
 open class BouncyLayout: UICollectionViewFlowLayout {
