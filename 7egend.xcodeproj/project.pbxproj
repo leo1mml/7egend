@@ -27,6 +27,7 @@
 		8AE4B5A82616AE76004FAC8A /* TripDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4B5A72616AE76004FAC8A /* TripDescriptionView.swift */; };
 		8AE4B5AD2616B2B1004FAC8A /* TripDescriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4B5AC2616B2B1004FAC8A /* TripDescriptionViewModel.swift */; };
 		8AE4B5B22616CAE2004FAC8A /* TripDetailsInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4B5B12616CAE2004FAC8A /* TripDetailsInfoCell.swift */; };
+		8AE4B5B72616EB9C004FAC8A /* BouncyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4B5B62616EB9C004FAC8A /* BouncyLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		8AE4B5A72616AE76004FAC8A /* TripDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDescriptionView.swift; sourceTree = "<group>"; };
 		8AE4B5AC2616B2B1004FAC8A /* TripDescriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDescriptionViewModel.swift; sourceTree = "<group>"; };
 		8AE4B5B12616CAE2004FAC8A /* TripDetailsInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsInfoCell.swift; sourceTree = "<group>"; };
+		8AE4B5B62616EB9C004FAC8A /* BouncyLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncyLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				8AE4B55C26150F0F004FAC8A /* HomeView.swift */,
 				8AE4B584261513E2004FAC8A /* TripShowCaseViewModel.swift */,
 				8AE4B58C261515C9004FAC8A /* TripShowCaseView.swift */,
+				8AE4B5B62616EB9C004FAC8A /* BouncyLayout.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				8AE4B59826152218004FAC8A /* ConfigurableView.swift in Sources */,
 				8AE4B56326150F41004FAC8A /* CodableViewLayout.swift in Sources */,
 				8AE4B56E26151157004FAC8A /* UIView+CodableConstraints.swift in Sources */,
+				8AE4B5B72616EB9C004FAC8A /* BouncyLayout.swift in Sources */,
 				8AE4B5A32616AE02004FAC8A /* TripDetailsView.swift in Sources */,
 				8AE4B59E26165CB7004FAC8A /* TripDetailsViewController.swift in Sources */,
 				8AE4B5B22616CAE2004FAC8A /* TripDetailsInfoCell.swift in Sources */,

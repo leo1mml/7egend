@@ -10,7 +10,7 @@ import UIKit
 final class HomeView: UIView {
     private let collectionView: UICollectionView = {
         let collectionView = UICollectionView(frame: .zero,
-                                              collectionViewLayout: UICollectionViewFlowLayout())
+                                              collectionViewLayout: BouncyLayout())
             .makeCodableLayoutView()
         collectionView.register(HomeTripCell.self, forCellWithReuseIdentifier: HomeTripCell.identifier)
         return collectionView
