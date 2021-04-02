@@ -33,7 +33,7 @@ extension TripShowCaseView: CodableViewLayout {
         overlay.constrainToEdges()
         imageView.constrainToEdges()
         periodLabel.constrainLeading(spacing: 32)
-        periodLabel.constrainBottom(spacing: 32)
+        periodLabel.constrainBottom(spacing: 64)
         nameLabel.constrainBottom(to: periodLabel, spacing: 16)
         nameLabel.constrainLeading(to: periodLabel)
         seasonIcon.constrainTop(to: nameLabel, spacing: -32)

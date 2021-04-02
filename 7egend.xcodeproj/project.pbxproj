@@ -22,6 +22,11 @@
 		8AE4B585261513E2004FAC8A /* TripShowCaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4B584261513E2004FAC8A /* TripShowCaseViewModel.swift */; };
 		8AE4B58D261515C9004FAC8A /* TripShowCaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4B58C261515C9004FAC8A /* TripShowCaseView.swift */; };
 		8AE4B59826152218004FAC8A /* ConfigurableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4B59726152218004FAC8A /* ConfigurableView.swift */; };
+		8AE4B59E26165CB7004FAC8A /* TripDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4B59D26165CB7004FAC8A /* TripDetailsViewController.swift */; };
+		8AE4B5A32616AE02004FAC8A /* TripDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4B5A22616AE02004FAC8A /* TripDetailsView.swift */; };
+		8AE4B5A82616AE76004FAC8A /* TripDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4B5A72616AE76004FAC8A /* TripDescriptionView.swift */; };
+		8AE4B5AD2616B2B1004FAC8A /* TripDescriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4B5AC2616B2B1004FAC8A /* TripDescriptionViewModel.swift */; };
+		8AE4B5B22616CAE2004FAC8A /* TripDetailsInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4B5B12616CAE2004FAC8A /* TripDetailsInfoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +68,11 @@
 		8AE4B584261513E2004FAC8A /* TripShowCaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripShowCaseViewModel.swift; sourceTree = "<group>"; };
 		8AE4B58C261515C9004FAC8A /* TripShowCaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripShowCaseView.swift; sourceTree = "<group>"; };
 		8AE4B59726152218004FAC8A /* ConfigurableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableView.swift; sourceTree = "<group>"; };
+		8AE4B59D26165CB7004FAC8A /* TripDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsViewController.swift; sourceTree = "<group>"; };
+		8AE4B5A22616AE02004FAC8A /* TripDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsView.swift; sourceTree = "<group>"; };
+		8AE4B5A72616AE76004FAC8A /* TripDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDescriptionView.swift; sourceTree = "<group>"; };
+		8AE4B5AC2616B2B1004FAC8A /* TripDescriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDescriptionViewModel.swift; sourceTree = "<group>"; };
+		8AE4B5B12616CAE2004FAC8A /* TripDetailsInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsInfoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,7 @@
 			children = (
 				8AE4B56126150F2E004FAC8A /* Utils */,
 				8AC2A71626140243007175EF /* Home */,
+				8AE4B59C26165C72004FAC8A /* TripDetails */,
 				8A9A03A92613983900EF0373 /* AppDelegate.swift */,
 				8A9A03AB2613983900EF0373 /* SceneDelegate.swift */,
 				8A9A03AF2613983B00EF0373 /* Assets.xcassets */,
@@ -171,6 +182,18 @@
 				8AE4B59726152218004FAC8A /* ConfigurableView.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		8AE4B59C26165C72004FAC8A /* TripDetails */ = {
+			isa = PBXGroup;
+			children = (
+				8AE4B59D26165CB7004FAC8A /* TripDetailsViewController.swift */,
+				8AE4B5A22616AE02004FAC8A /* TripDetailsView.swift */,
+				8AE4B5A72616AE76004FAC8A /* TripDescriptionView.swift */,
+				8AE4B5AC2616B2B1004FAC8A /* TripDescriptionViewModel.swift */,
+				8AE4B5B12616CAE2004FAC8A /* TripDetailsInfoCell.swift */,
+			);
+			path = TripDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,14 +328,19 @@
 			files = (
 				8A9A03AA2613983900EF0373 /* AppDelegate.swift in Sources */,
 				8AE4B55D26150F0F004FAC8A /* HomeView.swift in Sources */,
+				8AE4B5AD2616B2B1004FAC8A /* TripDescriptionViewModel.swift in Sources */,
 				8AE4B585261513E2004FAC8A /* TripShowCaseViewModel.swift in Sources */,
 				8A9A03AC2613983900EF0373 /* SceneDelegate.swift in Sources */,
 				8AE4B58D261515C9004FAC8A /* TripShowCaseView.swift in Sources */,
 				8AE4B59826152218004FAC8A /* ConfigurableView.swift in Sources */,
 				8AE4B56326150F41004FAC8A /* CodableViewLayout.swift in Sources */,
 				8AE4B56E26151157004FAC8A /* UIView+CodableConstraints.swift in Sources */,
+				8AE4B5A32616AE02004FAC8A /* TripDetailsView.swift in Sources */,
+				8AE4B59E26165CB7004FAC8A /* TripDetailsViewController.swift in Sources */,
+				8AE4B5B22616CAE2004FAC8A /* TripDetailsInfoCell.swift in Sources */,
 				8AE4B57F26151304004FAC8A /* HomeTripCell.swift in Sources */,
 				8AC2A712261401C4007175EF /* HomeViewController.swift in Sources */,
+				8AE4B5A82616AE76004FAC8A /* TripDescriptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

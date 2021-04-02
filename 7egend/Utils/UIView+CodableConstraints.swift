@@ -73,3 +73,12 @@ extension UIView {
     }
     
 }
+
+extension NSLayoutAnchor {
+    @objc
+    func constrain(to anchor: NSLayoutAnchor, constant: CGFloat = 0) {
+        NSLayoutConstraint.activate([
+            self.constraint(equalTo: anchor, constant: constant)
+        ])
+    }
+}
