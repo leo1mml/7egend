@@ -22,5 +22,11 @@ class HomeViewController: UIViewController {
                                          period: "Verão, Rio De Janeiro - 22/03 - 28/08")
         })
         homeView.setup(with: items)
+        homeView.didSelectItem = navigateToDetail
+    }
+    
+    private func navigateToDetail() {
+        let destination = TripDetailsViewController()
+        present(destination, animated: true)
     }
 }

@@ -23,6 +23,8 @@ final class HomeView: UIView {
         return cell
     }
     
+    var didSelectItem: (() -> Void)?
+    
     override init(frame: CGRect = .zero) {
         super.init(frame: frame)
         setupViews()
@@ -52,6 +54,10 @@ extension HomeView: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let width = collectionView.frame.width * 0.9
         return CGSize(width: width, height: 170)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        didSelectItem?()
     }
 }
 

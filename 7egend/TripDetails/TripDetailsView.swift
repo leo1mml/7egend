@@ -15,7 +15,7 @@ final class TripDetailsView: UIView {
                                               collectionViewLayout: flowLayout)
             .makeCodableLayoutView()
         collectionView.register(TripDetailsInfoCell.self, forCellWithReuseIdentifier: TripDetailsInfoCell.identifier)
-        collectionView.contentInset = .init(top: 300, left: 0, bottom: 0, right: 0)
+        collectionView.contentInset = .init(top: 330, left: 0, bottom: 0, right: 0)
         return collectionView
     }()
     private lazy var collectionViewDataSource = UICollectionViewDiffableDataSource<Int, TripDescriptionViewModel>(collectionView: collectionView) {
